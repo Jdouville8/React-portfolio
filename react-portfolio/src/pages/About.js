@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import CardSm from '../components/CardSm'
+import CardMd from '../components/CardMd'
 import PortfolioContainer from '../components/PorfolioContainer';
 import Grid from '@material-ui/core/Grid';
 import Col from '../components/Col';
@@ -13,7 +14,11 @@ function About() {
     return (
     <>
     <PortfolioContainer>
-    <CardSm cardTitle={aboutMe} info={aboutMeInfo} link1={linkedIn} link2={github}/>
+    <CardMd
+    cardTitle={aboutMe} 
+    info={aboutMeInfo} 
+    link1={linkedIn} 
+    link2={github}/>
     <CardSm/>
     </PortfolioContainer>
     </>
