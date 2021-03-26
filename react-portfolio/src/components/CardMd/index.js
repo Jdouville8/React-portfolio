@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
       maxWidth: 690,
       minWidth: 200,
-      margin: "auto"
+      margin: "auto",
+      marginTop: "20px"
     },
     media: {
       height: 0,
