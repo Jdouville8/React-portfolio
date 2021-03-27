@@ -10,7 +10,7 @@ import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
+import { green } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
       transform: 'rotate(180deg)',
     },
     avatar: {
-      backgroundColor: red[500],
+      backgroundColor: green[500],
     },
     span: {
       fontSize: '16px',
@@ -60,7 +60,7 @@ function CardMd(props) {
           <CardHeader
             avatar={
               <Avatar aria-label="recipe" className={classes.avatar}>
-                R
+                J
               </Avatar>
             }
             action={
@@ -103,7 +103,7 @@ function CardMd(props) {
           </CardActions>
           <Collapse in={expanded} timeout="auto" unmountOnExit>
             <CardContent>
-              <Typography paragraph>Method:</Typography>
+              <Typography paragraph>{props.title1}</Typography>
               <Typography paragraph>
                 Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
                 minutes.

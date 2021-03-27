@@ -40,7 +40,7 @@ export default function SimpleCard(props) {
   return (
     <Card className={classes.root}>
       <CardContent>
-        <Typography variant="h5" color="textSecondary" component="h2">
+        <Typography variant="h5" color="textSecondary" component="h2" align='center'>
           {props.cardTitle}
         </Typography>
         <br />
