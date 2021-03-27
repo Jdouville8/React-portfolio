@@ -1,6 +1,7 @@
 import React from 'react';
 import CardSm from '../components/CardSm'
 import NoImgCardMd from '../components/NoImgCardMd'
+import ContactForm from '../components/ContactForm'
 
 import PortfolioContainer from '../components/PorfolioContainer';
 
@@ -17,6 +18,7 @@ function Contact() {
     // info={aboutMeInfo} 
     link1={linkedIn} 
     link2={github}/>
+    <ContactForm />
     </PortfolioContainer>
     </>
     )
