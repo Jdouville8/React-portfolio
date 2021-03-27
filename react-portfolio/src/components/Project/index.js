@@ -78,10 +78,12 @@ function ProjectCard(props) {
           <CardActions disableSpacing>
             <IconButton aria-label="add to favorites" href={props.link1}>
               {/* Change to take icon1 prop */}
+              Deployed Link
               <FavoriteIcon />
             </IconButton>
             <IconButton aria-label="share" href={props.link2}>
               {/* Change to take icon2 prop */}
+              Github Repository
               <ShareIcon />
             </IconButton>
           </CardActions>

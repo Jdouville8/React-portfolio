@@ -52,12 +52,12 @@ export default function SimpleCard(props) {
       </CardContent>
       <IconButton aria-label="show 11 new notifications" color="inherit" className={classes.span}>
         <MailIcon />
-        <Link href="/contact">E-mail:</Link>
+        <Link key="Email" href="mailto:Jdouville8gmail.com">E-mail: Jdouville8gmail.com</Link>
       </IconButton>
       <br/>
       <Typography variant="h5" component="h2" className={classes.span}>
       <PhoneAndroidIcon />
-        <span href="/contact">Phone:</span>
+        <span>Phone:</span>
         </Typography>
     </Card>
   );
