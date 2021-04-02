@@ -5,6 +5,7 @@ import CardMd from '../components/CardMd'
 import PortfolioContainer from '../components/PorfolioContainer';
 import Grid from '@material-ui/core/Grid';
 import Col from '../components/Col';
+import SelfImage from '../images/SelfImage.jpeg'
 
 function About() {
   const aboutMe = "About Me"
@@ -13,6 +14,8 @@ function About() {
   const github = "https://github.com/Jdouville8"
   const tech = "Technologies: "
   const techList = "Javascript, HTML, CSS, C++"
+  const OtherInterests = "Other Passions: "
+  const OtherInterestsList = "Music production education, Sound design, Hiking, Skateboarding, Snowboarding"
 
     return (
     <>
@@ -24,6 +27,9 @@ function About() {
     link2={github}
     title1={tech}
     body1={techList}
+    title2={OtherInterests}
+    body2={OtherInterestsList}
+    image={SelfImage}
     />
     {/* <CardSm/> */}
     </PortfolioContainer>

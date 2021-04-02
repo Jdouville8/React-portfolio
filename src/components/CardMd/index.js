@@ -43,6 +43,10 @@ const useStyles = makeStyles((theme) => ({
     },
     span: {
       fontSize: '16px',
+    },
+    favicon: {
+      marginLeft: 'px',
+      color: 'blue',
     }
   }));
   
@@ -54,6 +58,8 @@ function CardMd(props) {
     const handleExpandClick = () => {
       setExpanded(!expanded);
     };
+
+    const favicon = "fab fa-github-square"
     
     return (
         <Card className={classes.root}>
@@ -67,8 +73,8 @@ function CardMd(props) {
           />
           <CardMedia
             className={classes.media}
-            image="/public/logo192.png"
-            title="Paella dish"
+            image={props.image}
+            title="Justin Douville"
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
@@ -79,12 +85,23 @@ function CardMd(props) {
             <IconButton aria-label="add to favorites" href={props.link1}>
               {/* Change to take icon1 prop */}
               LinkedIn
-              <FavoriteIcon />
+              <i className="fab fa-linkedin"
+              style={{
+                marginLeft: '4px',
+                color: '#3f51b5',
+              }}
+              ></i>
             </IconButton>
             <IconButton aria-label="share" href={props.link2}>
               {/* Change to take icon2 prop */}
               Github
-              <ShareIcon />
+              <i 
+              className="fab fa-github-square"
+              style={{
+                marginLeft: '4px',
+                color: '#3f51b5',
+              }}
+              ></i>
             </IconButton>
             <IconButton
               className={clsx(classes.expand, {
@@ -105,6 +122,12 @@ function CardMd(props) {
               </Typography>
               <Typography paragraph>
                 {props.body1}
+              </Typography>
+              <Typography paragraph>
+                {props.title2}
+              </Typography>
+              <Typography paragraph>
+                {props.body2}
               </Typography>
             </CardContent>
           </Collapse>
