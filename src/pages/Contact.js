@@ -12,14 +12,18 @@ function Contact() {
   const github = "https://github.com/Jdouville8"
     return (
     <>
+    <div style={{height: '100vh'}}>
     <PortfolioContainer>
     <NoImgCardMd
     cardTitle={contact} 
     // info={aboutMeInfo} 
     link1={linkedIn} 
     link2={github}/>
+    <div style={{backgroundColor: 'white'}}>
     <ContactForm />
+    </div>
     </PortfolioContainer>
+    </div>
     </>
     )
   }

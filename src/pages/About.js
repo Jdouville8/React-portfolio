@@ -19,6 +19,7 @@ function About() {
 
     return (
     <>
+    <div style={{height: '100vh'}}>
     <PortfolioContainer>
     <CardMd
     cardTitle={aboutMe} 
@@ -33,6 +34,7 @@ function About() {
     />
     {/* <CardSm/> */}
     </PortfolioContainer>
+    </div>
     </>
     )
   }

@@ -6,9 +6,22 @@ import InventoryManagementSystem from "../images/InventoryManagementSystem.png";
 import TeamBuilder from "../images/TeamBuilder.png";
 import ReadMeGeneratorPic from "../images/ReadMeGenerator.png";
 import WeatherDashboardPic from "../images/WeatherDashboard.png";
-import WorkdaySchedulerPic from "../images/WorkdayScheduler.png";
+import WavMovers from "../images/WavMovers.png";
 
 function Portfolio() {
+
+
+  // WavMovers (done)
+  const WavMoversProject = "WavMovers";
+  const WavMoversProjectInfo =
+    "An audio sample sharing platform and music education community created with the goal of enabling growing music creators. Built with React, GridFs, Auth0, Stripe, Calendly API and Material UI";
+  const WavMoversProjectImage = `${WavMovers}`;
+  const WavMoversProjectDeployed =
+    "https://wavmovers.herokuapp.com/";
+  const WavMoversProjectRepo =
+    "https://github.com/Jdouville8/Audio-Sample-Sharing-Service";
+
+
   // Project 1 (done)
   const Project1 = "The Music Locator";
   const Project1Info =
@@ -54,19 +67,19 @@ function Portfolio() {
   const WeatherDashboardRepo =
     "https://github.com/Jdouville8/HW-6-Weather-Dashboard";
 
-  // Workday Scheduler (done)
-  const WorkdayScheduler = "Workday Scheduler";
-  const WorkdaySchedulerInfo =
-    "Calendar event scheduling tool with data persistence upon refresh constructed using javascript and bootstrap";
-  const WorkdaySchedulerImage = `${WorkdaySchedulerPic}`;
-  const WorkdaySchedulerDeployed =
-    "https://jdouville8.github.io/HW-5-Workday-Scheduler/";
-  const WorkdaySchedulerRepo =
-    "https://github.com/Jdouville8/HW-5-Workday-Scheduler";
+  
 
   return (
     <>
       <PortfolioContainer>
+      <ProjectCard
+        cardTitle={WavMoversProject}
+        info={WavMoversProjectInfo}
+        image={WavMoversProjectImage}
+        link1={WavMoversProjectDeployed}
+        link2={WavMoversProjectRepo}
+      />
+      <br />
         <ProjectCard
           cardTitle={Project1}
           info={Project1Info}
@@ -106,14 +119,8 @@ function Portfolio() {
         link1={WeatherDashboardDeployed}
         link2={WeatherDashboardRepo}
       />
-      <br />
-      <ProjectCard
-        cardTitle={WorkdayScheduler}
-        info={WorkdaySchedulerInfo}
-        image={WorkdaySchedulerImage}
-        link1={WorkdaySchedulerDeployed}
-        link2={WorkdaySchedulerRepo}
-      />
+      
+      
     </>
   );
 }

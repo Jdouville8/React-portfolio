@@ -5,11 +5,15 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
+import BackGroundImg from './images/BeachTexture.svg'
 
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{
+        backgroundImage: `url(${BackGroundImg})`,
+        height: '100%'
+      }}>
         <Header />
         <Wrapper>
           <Route exact path="/" component={About} />
