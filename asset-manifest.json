@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/React-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/React-portfolio/static/js/main.7d224cbb.chunk.js",
-    "main.js.map": "/React-portfolio/static/js/main.7d224cbb.chunk.js.map",
-    "runtime-main.js": "/React-portfolio/static/js/runtime-main.d53a2000.js",
-    "runtime-main.js.map": "/React-portfolio/static/js/runtime-main.d53a2000.js.map",
-    "static/js/2.484d0107.chunk.js": "/React-portfolio/static/js/2.484d0107.chunk.js",
-    "static/js/2.484d0107.chunk.js.map": "/React-portfolio/static/js/2.484d0107.chunk.js.map",
-    "static/js/3.3797e3f0.chunk.js": "/React-portfolio/static/js/3.3797e3f0.chunk.js",
-    "static/js/3.3797e3f0.chunk.js.map": "/React-portfolio/static/js/3.3797e3f0.chunk.js.map",
+    "main.js": "/React-portfolio/static/js/main.ce62c91c.chunk.js",
+    "main.js.map": "/React-portfolio/static/js/main.ce62c91c.chunk.js.map",
+    "runtime-main.js": "/React-portfolio/static/js/runtime-main.e8baa9d3.js",
+    "runtime-main.js.map": "/React-portfolio/static/js/runtime-main.e8baa9d3.js.map",
+    "static/js/2.d1acf12c.chunk.js": "/React-portfolio/static/js/2.d1acf12c.chunk.js",
+    "static/js/2.d1acf12c.chunk.js.map": "/React-portfolio/static/js/2.d1acf12c.chunk.js.map",
+    "static/js/3.194d852d.chunk.js": "/React-portfolio/static/js/3.194d852d.chunk.js",
+    "static/js/3.194d852d.chunk.js.map": "/React-portfolio/static/js/3.194d852d.chunk.js.map",
     "index.html": "/React-portfolio/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/React-portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.484d0107.chunk.js.LICENSE.txt": "/React-portfolio/static/js/2.484d0107.chunk.js.LICENSE.txt"
+    "static/js/2.d1acf12c.chunk.js.LICENSE.txt": "/React-portfolio/static/js/2.d1acf12c.chunk.js.LICENSE.txt",
+    "static/media/BeachTexture.f110e9ff.svg": "/React-portfolio/static/media/BeachTexture.f110e9ff.svg",
+    "static/media/InventoryManagementSystem.fa36f101.png": "/React-portfolio/static/media/InventoryManagementSystem.fa36f101.png",
+    "static/media/MusicLocator.135cffd5.png": "/React-portfolio/static/media/MusicLocator.135cffd5.png",
+    "static/media/ReadMeGenerator.2700acdc.png": "/React-portfolio/static/media/ReadMeGenerator.2700acdc.png",
+    "static/media/SelfImage.6ebbf576.jpeg": "/React-portfolio/static/media/SelfImage.6ebbf576.jpeg",
+    "static/media/TeamBuilder.60413c3e.png": "/React-portfolio/static/media/TeamBuilder.60413c3e.png",
+    "static/media/WavMovers.1e54bcf7.png": "/React-portfolio/static/media/WavMovers.1e54bcf7.png",
+    "static/media/WeatherDashboard.0da4f1d9.png": "/React-portfolio/static/media/WeatherDashboard.0da4f1d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d53a2000.js",
-    "static/js/2.484d0107.chunk.js",
+    "static/js/runtime-main.e8baa9d3.js",
+    "static/js/2.d1acf12c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.7d224cbb.chunk.js"
+    "static/js/main.ce62c91c.chunk.js"
   ]
 }
